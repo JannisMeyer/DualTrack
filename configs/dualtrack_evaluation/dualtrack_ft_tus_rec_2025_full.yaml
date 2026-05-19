@@ -17,7 +17,7 @@ model:
   load_kw:
     strict: false
     handle_size_mismatch: true
-  checkpoint: data/checkpoints/dualtrack_ft_tus_rec_2025_v3_best.pt # Will be overrided by --
+  checkpoint: configs/model/dualtrack_ft_tus_rec_2025_v3_best.pt # Will be overrided by --
 
 model_input_keymap:
   global_encoder_inputs: global_encoder_images
