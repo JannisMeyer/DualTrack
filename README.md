@@ -1,3 +1,5 @@
+This repository is forked from https://github.com/ImFusionGmbH/DualTrack, unfortunately the fork disappeared when importing this repo from one account to another.
+
 # DualTrack: Sensorless 3D Ultrasound Needs Local and Global Context
 
 Official Repo for "DualTrack: Sensorless 3D Ultrasound Needs Local and Global Context" (MICCAI ASMUS Workshop 2025, [arxiv paper](https://arxiv.org/abs/2509.09530)) and ***winner*** of the [TUS-REC 2025 challenge](https://github-pages.ucl.ac.uk/tus-rec-challenge/).
