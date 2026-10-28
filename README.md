@@ -1,4 +1,13 @@
-This repository is forked from https://github.com/ImFusionGmbH/DualTrack, unfortunately the fork disappeared when importing this repo from one account to another.
+# Objective
+This repository was forked from [DualTrack](https://github.com/ImFusionGmbH/DualTrack), a deep-learning model estimating 3D scan trajectories for 2D ultrasound scans in freehand 3D ultrasound reconstruction for [TUS-REC 2025 challenge](https://github-pages.ucl.ac.uk/tus-rec-challenge/) data. This work is the result from a master thesis at [OTH Regensburg](https://www.oth-regensburg.de/en/) and [Iwate Prefectural University](https://www.iwate-pu.ac.jp/) for which techniques from Simultaneous Localization and Mapping (SLAM), particularly pose graph optimization (PGO) and loop closure, were utilized in an attempt to improve pose estimation results from DualTrack. Most significant added contents are:
+
+- [DualTrack auxiliary](DualTrack_auxiliary): helper scripts to convert TUS-REC data into DualTrack format
+- [Baseline experiments](experiment): baseline evaluations for DualTrack on TUS-REC data
+- [PGO](pgo): added code for SLAM and PGO techniques
+- [Experiments](pgo/experiments_2): experiments using said code on TUS-REC data and DualTrack results
+
+Furthermore, code related to DualTrack was altered to fit custom environments and requirements, without changing its core functionality.
+Following descriptions originate from the forked repository.
 
 # DualTrack: Sensorless 3D Ultrasound Needs Local and Global Context
 
